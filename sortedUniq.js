@@ -1,8 +1,8 @@
 import baseSortedUniq from './.internal/baseSortedUniq.js'
 
 /**
- * This method is like `uniq` except that it's designed and optimized
- * for sorted arrays.
+ * This method is like _.uniq except that it only works with sorted arrays. 
+ * In the case the array is known to be sorted _.sortedUniq is faster than _.uniq
  *
  * @since 4.0.0
  * @category Array
